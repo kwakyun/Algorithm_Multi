@@ -44,9 +44,9 @@ class C01_SeqSearch {
 //		System.out.print("검색할 값: "); // 키값을 입력받음
 //		int ky = stdIn.nextInt();
 		
-		int num = 7;
+		int num = 7;  //요소의 개수
 		int[] x = new int[] {6,4,3,2,1,2,8};
-		int ky = 2;
+		int ky = 2;  //찾아야하는 키값
 
 		int idx = seqSearch(x, num, ky); // 배열 x에서 값이 ky인 요소를 검색
 

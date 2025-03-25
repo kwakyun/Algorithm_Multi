@@ -761,3 +761,25 @@
                 } catch (IOException e) {
                     throw new RuntimeException(e);
                 }
+
+최소공배수 구하기 공식 :
+x * y / 최대공약수
+
+
+짝수 피보나치 :
+int limit = 4000000; //최대값 설정
+        int a = 1;
+        int b = 2;
+        int sum = 0;
+
+        while(b <= limit){
+            if(b%2 == 0){ //짝수인지 확인
+                sum += b;
+            }
+            //다음 피보나치 항 계산
+            int next = a + b;
+            a = b;
+            b = next;
+
+        }
+

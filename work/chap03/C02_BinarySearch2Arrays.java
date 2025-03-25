@@ -28,7 +28,7 @@ class C02_BinarySearch2Arrays {
         int ky = stdIn.nextInt();
 
 		// 방법2. 자바메소드 구현 - Arrays.binarySearch활용
-		int idx = Arrays.binarySearch(x, 39);    // 배열 x에서 값이 ky인 요소를 검색
+		int idx = Arrays.binarySearch(x, ky);    // 배열 x에서 값이 ky인 요소를 검색
 
         if (idx < 0)
             System.out.println("검색 값의 요소가 없습니다.");

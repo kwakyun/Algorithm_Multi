@@ -8,15 +8,15 @@ class C02_BinarySearch5Product {
 	// --- 제품 데이터 모델명 가격 ---//
 
 	static class Product{
-		private String mode;
+		private String model;
 		private int price;
 
 		public String getMode() {
-			return mode;
+			return model;
 		}
 
-		public void setMode(String mode) {
-			this.mode = mode;
+		public void setMode(String model) {
+			this.model = model;
 		}
 
 		public int getPrice() {
@@ -27,15 +27,15 @@ class C02_BinarySearch5Product {
 			this.price = price;
 		}
 
-		public Product(String mode, int price) {
-			this.mode = mode;
+		public Product(String model, int price) {
+			this.model = model;
 			this.price = price;
 		}
 
 		@Override
 		public String toString() {
 			return "Product{" +
-					"mode='" + mode + '\'' +
+					"model='" + model + '\'' +
 					", price=" + price +
 					'}';
 		}
